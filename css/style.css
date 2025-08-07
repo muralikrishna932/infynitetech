@@ -264,8 +264,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: #004a8c;
-    /*url(../img/banner-4.jpg);*/
+    background: linear-gradient(to right, #000428, #004e92);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -887,7 +886,7 @@
 /*** copyright Start ***/
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: #0264B9 !important;
+    background: rgb(0, 74, 140) !important;
 }
 /*** copyright end ***/
 
@@ -1032,7 +1031,7 @@
 }
 
 .topbar {
-    background-color: rgb(2, 100, 185);
+    background-color: rgb(0, 74, 140);
     height: 40px;
     padding: 0;
     font-size: 16px;
@@ -1063,7 +1062,7 @@
 }
 
 .bg-whychoose {
-    background-color: #004a8c;
+    background: linear-gradient(to right, #000428, #004e92);
     border-radius: 10px;
     width: 80%;
 }
@@ -1349,7 +1348,7 @@
  
     padding: 10px 10px 30px;
     margin: 30px 0px;
-    background: rgb(147, 223, 238);
+    background: linear-gradient(to right, #000428, #004e92);
     text-align: center;
     transition: 0.3s ease-in-out;
     cursor: pointer;
@@ -1383,33 +1382,27 @@
   .services1-descb {
     padding: 10px 10px 30px 10px;
     margin: 30px 0;
-    background: #93dfee;
+    background: linear-gradient(to right, #000428, #004e92);
     text-align: center;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    color: var(--bg-white);
 }
 
 .dark-backgroud {
-    background: #00224D !important; 
+    background: linear-gradient(to right, #000428, #004e92) !important; 
 }
 
 .bg-testimonial {
     background-color: #00abff36 !important;
   }
 
-  .module {
-    background: 
-      linear-gradient(
-        rgba(0, 0, 0, 0.6),
-        rgba(0, 0, 0, 0.6)
-      ),
-      url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    margin: 10px 0 0 10px;
-    position: relative;
-    float: left;
-  }
+
+.project-req {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0.75rem;
+}
+
 
   
