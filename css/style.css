@@ -1403,3 +1403,20 @@
     justify-content: space-between;
     padding: 0rem 0.75rem;
 }
+
+.banner-service-list {
+	background: #d31414;
+	width: 96%;
+	border-radius: 10%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(11, 11, 11, 0.26) 0px 0px 48px;
+    font-family: "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+}
