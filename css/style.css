@@ -1420,3 +1420,27 @@
     box-shadow: rgba(11, 11, 11, 0.26) 0px 0px 48px;
     font-family: "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
 }
+
+.sub-heading {
+	font-family: 16px;
+	background-color: #e6effff7;
+	font-size: 22px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 5px 20px 5px 40px;
+	border-radius: 5px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.sub-heading::before {
+	background-color: #ff0b0bfa;
+	content: "";
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 2px;
+}
