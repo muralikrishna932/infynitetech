@@ -928,9 +928,7 @@
     margin-top: 0px;
     padding: 10px 15px;
     border-radius: 20px;
-    font-family: "boxicons!important"; 
     box-shadow: rgba(0, 0, 0, 0.1) 5px 10px 10px;
-    font-size: 1.1rem;
 }
 
 .csr-text {
@@ -986,7 +984,6 @@
     .display-5 {
         font-size: 1.5rem;
         color: rgba(13, 35, 102, 1);
-        /*rgb(2, 100, 185);*/
     }
 }
 
@@ -1138,70 +1135,17 @@
     transform: skewX(13deg);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800;900&amp;family=Roboto:wght@400;500;600;700;800&amp;family=Allison&amp;display=swap");
-@import url("bootstrap.min.css");
-@import url("../fonts/fontawesome/css/all.css");
-@import url("../fonts/webexbaseicon/style.css");
-@import url("../fonts/webexthemeicon/style.css");
-@import url("nice-select.css");
-@import url("twentytwenty.css");
-@import url("owl.carousel.min.css");
-@import url("magnific-popup.css");
-@import url("animate.css");
-@import url("custom-animation.css");
-@import url("kursor.css");
+
 :root {
-  --webex-primary-color: #ef4a44;
+  --webex-primary-color: #001379;
   --webex-primary-color-rgb: 59, 56, 235;
-  --webex-primary-color2-rgb: 102, 0, 211;
-  --webex-primary-color3-rgb: 21, 235, 174;
-  --webex-primary-color4: #fd4a18;
-  --webex-primary-color4-rgb: 253, 74, 24;
-  --webex-primary-color5-rgb: 235, 158, 1;
-  --webex-primary-color6: #da0212;
-  --webex-primary-color6-rgb: 218, 2, 18;
-  --webex-primary-color7: #e42032;
-  --webex-primary-color7-rgb: 228, 32, 50;
-  --webex-secondary-color-rgb: 13, 21, 37;
-  --webex-secondary-color2-rgb: 13, 21, 37;
-  --theme-text-gray: #a5a5a5;
-  --text-white: #ffffff;
-  --text-silver: #f1f3f8;
-  --text-silver-light: #f0efff;
-  --text-gray-light: #cccccc;
-  --text-dark-light: #808093;
   --bg-white: #ffffff;
-  --bg-light-pink: #faf3f3;
+  
   --bg-silver: #f1f3f8;
   --bg-silver-light: #e7e3f0;
   --bg-silver-light2: #f0f1f7;
   --bg-silver-deep: #ecdaee;
   --bg-gray: #f7f7f7;
-  --gradient-color1: linear-gradient(
-    45deg,
-    var(--webex-primary-color) 0%,
-    var(--webex-primary-color2) 100%
-  );
-  --gradient-color2: linear-gradient(
-    45deg,
-    var(--webex-primary-color2) 0%,
-    var(--webex-primary-color) 100%
-  );
-  --gradient-color3: linear-gradient(
-    45deg,
-    var(--webex-primary-color5) 0%,
-    var(--webex-primary-color6) 100%
-  );
-  --gradient-color4: linear-gradient(
-    45deg,
-    var(--webex-primary-color6) 0%,
-    var(--webex-primary-color5) 100%
-  );
-  --gradient-section-overlay: linear-gradient(
-    90deg,
-    var(--webex-primary-color2) 10%,
-    var(--webex-primary-color) 100%
-  );
 }
 
 ::selection {
@@ -1226,8 +1170,8 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    /*margin-right: -15px;
+    margin-left: -15px;*/
 }
 
 /* our Approach*/
@@ -1439,8 +1383,40 @@
 	height: 15px;
 	width: 15px;
 	position: absolute;
-	left: 20px;
+	left: 10px;
 	top: 50%;
 	transform: translateY(-50%);
 	border-radius: 2px;
+}
+
+
+.addr-box {
+  width: 296px;
+  padding: 28px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.wdgt-box {
+  width: 296px;
+  padding: 36px;
+  border-radius: 10px;
+  margin: 36px;
+  box-shadow:5px 10px 10px rgba(0, 66, 200, 0.62);
+  background-color: mintcream;
+}
+
+.addr-heading {
+  color: #000000;
+  font-size: 1.3em; 
+  font-weight: bolder;
+  background-clip: text;
+}
+
+.addr-img-topleft {
+  margin: -38px;
+  margin-top: -81px;
+  width: 32%;
+  padding: 15px;
 }
