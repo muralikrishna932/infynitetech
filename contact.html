@@ -109,7 +109,7 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h1 class="display-5 text-primary text-uppercase">Get In Touch With Us</h1>
+                    <h1 class="display-5 text-primary">Get In Touch With Us</h1>
                     <h1 class="display-5">Transforming Businesses Through Technology – Let’s Connect</h1>
                 </div>
                 <div class="row g-5 align-items-center">
@@ -140,7 +140,7 @@
                                                     <div class="ms-0">
                                                         <a href="mailto:someone@infynitetech.com">
                                                         <h5 class="fw-bold">Send Us An Email</h5>
-                                                        <p class="mb-0">contact@infynitetech.com</p></a>
+                                                                    <p class="text-center"> <a href="mailto:someone@infynitetech.com" class="btn btn-primary text-white">Send Email</a></p>
                                                     </div>
                                             </div>
                                          </div>
@@ -212,6 +212,7 @@
                                     </div>
                                 </div>
                                 <div>&nbsp;</div>
+
                             </div>
                         </div>
                     </div>
@@ -308,6 +309,22 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        var acc = document.getElementsByClassName("accordion-addr");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active-addr");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+        </script>
     </body>
 
 </html>
